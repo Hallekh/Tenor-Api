@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#search {
+    padding: 10px;
+    margin: 15px;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    border: 1px solid black;
+    
+    
+}
+
+#btn {
+    margin: 15px;
+    height: 30px;
+    
+}
+#btn :hover {
+    background-color: blanchedalmond;
+
+}
